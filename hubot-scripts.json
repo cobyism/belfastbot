@@ -28,6 +28,7 @@
   "hackernews.coffee",
   "haters.coffee",
   "insult.coffee",
+  "marvin-quotes.coffee",
   "points.coffee",
   "redis-brain.coffee",
   "remember.coffee",
