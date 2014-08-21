@@ -55,7 +55,6 @@ helpContents = (name, commands) ->
 module.exports = (robot) ->
 
   robot.respond /help\s*(.*)?$i/, (msg) ->
-    msg.send msg.random nopes
     msg.send "NOPE. Last time I did that I flooded the channel and everyone got pissed."
     msg.send "Read the help via the web instead:"
     msg.send "http://belfastbot.herokuapp.com/belfastbot/help"
